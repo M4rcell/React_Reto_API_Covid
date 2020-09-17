@@ -14,8 +14,6 @@ export const useFechDataCovid = () => {
         getData()
         .then(dt =>{
             setTimeout(()=>{
-                
-                console.log(dt);
 
                 setState({
                     data:dt,

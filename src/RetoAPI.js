@@ -1,11 +1,10 @@
 import React from 'react'
-import { DataTable } from './components/DataTable'
+import { Screen } from './components/Screen'
 
 export const RetoAPI = () => {
     return (
         <div>
-            <h1>Hola mundo</h1>
-            <DataTable/>
+            <Screen/>
         </div>
     )
 }
